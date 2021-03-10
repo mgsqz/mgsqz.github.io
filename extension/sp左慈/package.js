@@ -1,0 +1,9 @@
+extension["sp左慈"]={
+	intro:"",
+	author:"czy",
+	netdisk:"",
+	forum:"",
+	version:"1.0",
+	files:["sp_zuoci.jpg","extension.js","package.js","sp左慈.jpg"],
+	size:"4.3MB"
+};
