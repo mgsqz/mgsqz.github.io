@@ -102,7 +102,7 @@ game.import("extension",function(lib,game,ui,get,ai,_status){return {name:"sp左
                     if(!event.logged){player.logSkill('sphuashen');event.logged=true}
                     var next=player.chooseButton(true).set('dialog',event.videoId);
                     if(event.control=='弃置化身'){
-                        next.set('selectButton',[1,6]);
+                        next.set('selectButton',[1,player.maxHp]);
                         next.set('filterButton',function(button){
                             return button.link!=_status.event.current;
                         });
@@ -115,7 +115,7 @@ game.import("extension",function(lib,game,ui,get,ai,_status){return {name:"sp左
                         });
                         next.set('choice',event.aiChoice);
                     }
-                    var prompt=event.control=='弃置化身'?'选择弃置至多两张化身':'选择要切换的化身';
+                    var prompt=event.control=='弃置化身'?'选择弃置至多X张化身(X为体力上限)':'选择要切换的化身';
                     var func=function(id,prompt){
                         var dialog=get.idDialog(id);
                         if(dialog){
