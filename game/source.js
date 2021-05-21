@@ -201,5 +201,5 @@
 	'extension/十周年UI/skill.js',
 	'extension/十周年UI/spine.js',
 	'extension/挑战卡牌/extension.js',
-	'extension/sp左慈/extension.js',
+	'extension/无尽模式/extension.js',
 ];
