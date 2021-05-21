@@ -5822,7 +5822,8 @@ window.noname_asset_list=[
 	'extension/十周年UI/image/decoration/name_wu.webp',
 	'extension/十周年UI/image/decoration/name_ye.webp',
 	'extension/十周年UI/image/decoration/vs.webp',
-	'extension/sp左慈/sp_zuoci.jpg',
+	'extension/无尽模式/wjms.jpg',
+	'extension/无尽模式/wjms_bg.png',
 ];
 window.noname_skin_list={
 	baosanniang:2,
